@@ -312,7 +312,7 @@ function diamond(n){
   }
 }
 
-```
+
 // n=3일때 
 // i = 0 일때 공백 2
 // i = 1 일때 공백 1
@@ -321,8 +321,7 @@ function diamond(n){
 //  * *
 // * * *
 
-```
-```js
+
 function line(n, i){
   const str = ' '.repeat(n - i - 1) + '* '.repeat(i + 1);
   console.log(str); 
